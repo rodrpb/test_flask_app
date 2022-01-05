@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def index():
-    return "Hello", 200
+    return "Hello.", 200
 
 @app.route('/error/503', methods=['GET'])
 def devuelve_503():
