@@ -14,6 +14,6 @@ def devuelve_503():
 def devuelve_404():
     return "Not found", 404
 
-# if __name__ == '__main__':
-#     # app.run(host='0.0.0.0', port=80)
-#     app.run()
+if __name__ == '__main__':
+    # app.run(host='0.0.0.0', port=80)
+    app.run()
